@@ -1,0 +1,40 @@
+{
+  "name": "domv-popup",
+  "version": "1.0.0",
+  "description": "Display DOM elements with fixed position (a popup) relative to an \"owning\" element. This is a neat workaround for stacking context limitations in CSS (z-index, overflow:hidden, etc)",
+  "main": "lib/Popup.js",
+  "scripts": {
+    "test": "echo todo",
+    "bundle": "browserify --outfile build/domv.js -r domv && browserify --exclude domv --outfile build/domv-popup.js -r ./lib/Popup.js:domv-popup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joris-van-der-Wel/domv-popup.git"
+  },
+  "keywords": [
+    "domv",
+    "popup",
+    "css",
+    "z-index",
+    "stacking",
+    "context",
+    "dom",
+    "browser",
+    "browserify"
+  ],
+  "author": "Joris van der Wel <joris@jorisvanderwel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joris-van-der-Wel/domv-popup/issues"
+  },
+  "homepage": "https://github.com/Joris-van-der-Wel/domv-popup",
+  "dependencies": {
+    "domv": "^1.0.1",
+    "inherits": "^2.0.1",
+    "lazy-timer": "0.0.0",
+    "shortid": "^2.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3"
+  }
+}
