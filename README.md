@@ -1,6 +1,6 @@
 domv-popup
 ==========
-Display DOM elements with fixed position (a popup) relative to an \"owning\" element. This is a neat workaround for stacking context limitations in CSS (z-index, overflow:hidden, et cetera)
+Display DOM elements with fixed position (a popup) relative to an "owning" element. This is a neat workaround for stacking context limitations in CSS (z-index, overflow:hidden, et cetera)
 
 This is a CommonJS module, you will need to use [browserify](http://browserify.org/).
 
